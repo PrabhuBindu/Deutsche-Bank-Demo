@@ -1,0 +1,1 @@
+export const GET_COVID_DATA = 'https://corona.lmao.ninja/v2/countries/USA?yesterday&strict&query%20';

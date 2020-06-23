@@ -1,0 +1,20 @@
+<div class="home-container">
+    <div class="stat-container">
+        <div class="stat total">
+            <div class="title">Total</div>
+            <div class="count" [class]="{'loader': isLoader}">{{statsData.cases}}</div>
+        </div>
+        <div class="stat recovered">
+            <div class="title">Recovered</div>
+            <div class="count" [class]="{'loader': isLoader}">{{statsData.recovered}}</div>
+        </div>
+        <div class="stat active">
+            <div class="title">Active</div>
+            <div class="count" [class]="{'loader': isLoader}">{{statsData.active}}</div>
+        </div>
+        <div class="stat deadths">
+            <div class="title">Deaths</div>
+            <div class="count" [class]="{'loader': isLoader}">{{statsData.deaths}}</div>
+        </div>
+    </div>
+</div>

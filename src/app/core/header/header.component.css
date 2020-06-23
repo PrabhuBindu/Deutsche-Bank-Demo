@@ -1,0 +1,19 @@
+.header-container {
+    background-color: #272727;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header-container .title {
+    color: #ffffff;
+}
+
+.header-container .user {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}

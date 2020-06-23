@@ -1,0 +1,45 @@
+.home-container {
+    padding: 20px;
+}
+
+.home-container .stat-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-container .stat-container .stat {
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    border-radius: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container .stat-container .stat .title {
+    color: #b2b2b2;
+    padding: 4px 0;
+}
+
+.home-container .stat-container .stat .count {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #272727;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
